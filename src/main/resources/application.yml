@@ -1,0 +1,9 @@
+server:
+  tomcat:
+    basedir: ${application.home}
+    max-threads: 1
+    access-log-enabled: true
+    access-log-pattern: "%t lbip=%h identd=%l user=%u status=%s method=%m url=%U bytes=%b duration=%D"
+    remote-ip-header: x-forwarded-for
+    protocol-header: x-forwarded-proto
+  port: 8443
