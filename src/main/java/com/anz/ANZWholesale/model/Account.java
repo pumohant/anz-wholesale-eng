@@ -19,7 +19,7 @@ public class Account {
   
   private String currency;
   
-  private Float openingAvailableBalance;
+  private Double openingAvailableBalance;
   
   public Integer getAccountNumber() {
 	 return accountNumber;
@@ -60,11 +60,11 @@ public class Account {
   public void setCurrency(String currency) {
 	 this.currency = currency;
   }
-  public Float getOpeningAvailableBalance() {
+  public Double getOpeningAvailableBalance() {
 	return openingAvailableBalance;
   }
 
-  public void setOpeningAvailableBalance(Float openingAvailableBalance) {
+  public void setOpeningAvailableBalance(Double openingAvailableBalance) {
 	this.openingAvailableBalance = openingAvailableBalance;
   }
 }

@@ -17,9 +17,9 @@ public class Transaction {
   
   private String currency;
   
-  private Float debitAmount;
+  private Double debitAmount;
   
-  private Float creditAmount;
+  private Double creditAmount;
   
   private String txType;
   
@@ -49,11 +49,11 @@ public class Transaction {
     this.valueDate = valueDate;
   }
 
-  public Float getDebitAmount() {
+  public Double getDebitAmount() {
     return debitAmount;
   }
 
-  public void setDebitAmount(Float debitAmount) {
+  public void setDebitAmount(Double debitAmount) {
     this.debitAmount = debitAmount;
   }
   
@@ -64,11 +64,11 @@ public class Transaction {
   public void setCurrency(String currency) {
 	 this.currency = currency;
   }
-  public Float getCreditAmount() {
+  public Double getCreditAmount() {
 	return creditAmount;
   }
 
-  public void setCreditAmount(Float creditAmount) {
+  public void setCreditAmount(Double creditAmount) {
 	this.creditAmount = creditAmount;
   }
   
